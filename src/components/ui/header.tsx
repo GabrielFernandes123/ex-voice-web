@@ -37,7 +37,7 @@ export function Header() {
       const pathSegments = pathname.split("/").filter(Boolean);
 
       breadcrumbs.push({
-        label: "Pacientes",
+        label: "Clientes",
         href: "/clients",
         isActive: pathname === "/clients",
       });
@@ -300,7 +300,7 @@ export function Header() {
                   )}
                   onClick={() => router.push("/clients")}
                 >
-                  Pacientes
+                  Clientes
                 </span>
                 <span
                   className={cn(
